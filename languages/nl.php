@@ -3,13 +3,13 @@
 l::set(array(
   
   // global 
-  'ok' => 'Ok',
+  'ok' => 'OK',
   'cancel' => 'Annuleer',
   'nochanges' => 'Er zijn geen wijzigingen',
 
   // header
   'header.title' => 'Kirby',
-  'header.logout' => 'Uitloggen', 
+  'header.logout' => 'Log Uit', 
   
   // subheader
   'subheader.home' => 'Home',  
@@ -17,7 +17,7 @@ l::set(array(
   'subheader.info' => 'Info',
 
   // tabs
-  'tabs.overview' => 'Overview',
+  'tabs.overview' => 'Overzicht',
   'tabs.info' => 'Bewerk Info',
   'tabs.content' => 'Inhoud',
   'tabs.files' => 'Bestanden',
@@ -39,36 +39,36 @@ l::set(array(
   // home
   'home.siteinfo' => 'Site info',
   'home.edit' => 'Bewerk',
-  'home.warning.title' => 'AUB eerst aanpassen!',
+  'home.warning.title' => 'Pas alstublieft eerst aan!',
   'home.warning.permissions.title' => 'Bevoegdheden',
   'home.warning.permissions.text' => 'De bevoegdheden in je inhoud map zijn niet juist toegekend. Verander alstublieft de bevoegdheden voor alle mappen naar  <strong>0755</strong> en voor alle bestanden naar <strong>0666</strong>',
   'home.warning.blueprints.title' => 'Blauwdrukken',
   'home.warning.blueprints.text' => 'Er zijn geen blauwdrukken aanwezig voor de volgende sjablonen<br /> Lees meer over <a href="http://getkirby.com/panel/blueprints">how to install blueprints for your templates</a>',
   'home.warning.thumbs.title' => 'Thumbnails',
-  'home.warning.thumbs.text' => 'Voeg een <strong>thumbs</strong> map toe in de hoofd map van je site en verander de bevoegdheden ervan naar <strong>0755</strong>',
+  'home.warning.thumbs.text' => 'Voeg een <strong>thumbs</strong> map toe in de hoofdmap van je site en verander de bevoegdheden ervan naar <strong>0755</strong>',
   
   // siteinfo
   'siteinfo.button' => 'Bewaar',
-  'siteinfo.errors.title' => 'AUB een titel toevoegen',
-  'siteinfo.errors.permissions' => '<strong>content/site.txt</strong> is niet schrijfbaar. <br />Verander AUB de bevoegdheden en probeer nog eens.',
+  'siteinfo.errors.title' => 'Voeg alstublieft een titel toe',
+  'siteinfo.errors.permissions' => '<strong>content/site.txt</strong> is niet schrijfbaar. <br />Verander alstublieft de bevoegdheden en probeer nog eens.',
   
   // content form 
   'content.save' => 'Save',
-  'content.previous' => 'Previous',
-  'content.next' => 'Next',
-  'content.invisible' => 'invisible',
+  'content.previous' => 'Vorige',
+  'content.next' => 'Volgende',
+  'content.invisible' => 'verborgen',
   
   // no content available
-  'nocontent.title' => 'No Content',
-  'nocontent.text' => 'There\'s no content for this page available.',
+  'nocontent.title' => 'Geen Inhoud',
+  'nocontent.text' => 'Er is geen inhoud beschikbaar voor deze pagina.',
     
   // pages
   'pages.title' => 'Visible pages',
   'pages.title.home' => 'Pages',
   'pages.home' => 'Home',
-  'pages.sort' => 'Sort',
-  'pages.add' => 'Add',
-  'pages.delete' => 'Remove',
+  'pages.sort' => 'Sorteer',
+  'pages.add' => 'Voeg toe',
+  'pages.delete' => 'Verwijder',
   'pages.invisible' => 'Invisible subpages',
   'pages.invisible.home' => 'Invisible pages',
   'pages.no.visible' => 'No visible pages so far',
@@ -83,95 +83,95 @@ l::set(array(
   'pages.errors.nosort' => 'There\'s nothing to sort',
 
   // no subpages allowed
-  'nopages.title' => 'Subpages',
+  'nopages.title' => 'Subpagina\'s',
   'nopages.text' => 'This page is not supposed to have subpages',  
   
   // add page
-  'pages.add.title' => 'Add a new page',
-  'pages.add.label.title' => 'Title',
+  'pages.add.title' => 'Voeg nieuwe pagina toe',
+  'pages.add.label.title' => 'Titel',
   'pages.add.label.url' => 'URL',
-  'pages.add.label.template' => 'Template',
-  'pages.add.button' => 'Save',
-  'pages.add.errors.title' => 'Please add a title',
-  'pages.add.errors.url' => 'Please add a URL for your page',
-  'pages.add.errors.characters' => 'Please only use the following characters a-z, 0-9, _, - for the URL',
+  'pages.add.label.template' => 'Sjabloon',
+  'pages.add.button' => 'Bewaar',
+  'pages.add.errors.title' => 'Voeg alstublieft een titel toe',
+  'pages.add.errors.url' => 'Voeg alstublieft een URL aan uw pagina toe',
+  'pages.add.errors.characters' => 'Gebruik alstublieft alleen de volgende karakters a-z, 0-9, _, - voor de URL',
   'pages.add.errors.exists' => 'A page with that url already exists',
   'pages.add.errors.permissions' => 'The directory could not be created',
-  'pages.add.success' => 'The page has been created',
+  'pages.add.success' => 'De pagina is aangemaakt',
 
   // update page
-  'pages.update.errors.title' => 'Please add a title',
+  'pages.update.errors.title' => 'Voeg alstublieft een titel toe',
     
   // delete page  
-  'pages.delete.title' => 'Delete this page',
-  'pages.delete.button' => 'Delete',
-  'pages.delete.errors.homepage' => 'You cannot delete the homepage',
+  'pages.delete.title' => 'Verwijder deze pagina',
+  'pages.delete.button' => 'Verwijder',
+  'pages.delete.errors.homepage' => 'Je kunt de homepage niet verwijderen',
   'pages.delete.errors.errorpage' => 'You cannot delete the error page',
-  'pages.delete.errors.subpages' => 'This page has subpages. Please delete them first.',
-  'pages.delete.errors.permissions' => 'The page could not be removed',
-  'pages.delete.success' => 'The page has been removed',
+  'pages.delete.errors.subpages' => 'Deze pagina heeft subpagina\'s. Verwijder deze alstublieft eerst.',
+  'pages.delete.errors.permissions' => 'De pagina kon niet worden verwijderd',
+  'pages.delete.success' => 'De pagina is verwijderd',
 
   // options
   'options.url' => 'URL',
-  'options.button' => 'Save',
+  'options.button' => 'Bewaar',
   'options.home.url' => 'URL',
-  'options.home.text' => 'You cannot change the URL of the homepage',
+  'options.home.text' => 'Je kunt de URL van de homepage niet veranderen',
   'options.error.text' => 'You cannot change the URL of the error page',
-  'options.errors.homepage' => 'You cannot change the URL of the homepage',
+  'options.errors.homepage' => 'Je kunt de URL van de homepage niet veranderen',
   'options.errors.errorpage' => 'You cannot change the URL of the error page',
-  'options.errors.characters' => 'Please only use the following characters a-z, 0-9, _, -',
+  'options.errors.characters' => 'Gebruik alstublieft alleen de volgende karakters a-z, 0-9, _, -',
   'options.errors.permissions' => 'The the content directory cannot be moved',
-  'options.errors.exists' => 'The new URL already exists',
+  'options.errors.exists' => 'De nieuwe URL bestaat al',
   'options.errors.move' => 'The the content directory cannot be moved',
 
   // files
-  'files.title' => 'Files',
-  'files.upload' => 'Upload a new file',
-  'files.edit' => 'Edit',
-  'files.replace' => 'Replace',
-  'files.delete' => 'Delete',
-  'files.empty' => 'No files so far',
+  'files.title' => 'Bestanden',
+  'files.upload' => 'Upload een nieuw bestand',
+  'files.edit' => 'Aanpassen',
+  'files.replace' => 'Vervang',
+  'files.delete' => 'Verwijder',
+  'files.empty' => 'Nog geen bestanden',
 
-  'nofiles.title' => 'No Files',
-  'nofiles.text' => 'This page is not supposed to have files',
+  'nofiles.title' => 'Geen Bestanden',
+  'nofiles.text' => 'Deze pagina behoort geen bestanden te bevatten',
   
   // delete file
-  'files.delete.title' => 'Delete this file',
-  'files.delete.button' => 'Delete',
-  'files.delete.errors.notfound' => 'The file could not be found',
-  'files.delete.errors.permissions' => 'The file could not be delete',
-  'files.delete.success' => 'The file has been deleted',
+  'files.delete.title' => 'Verwijder dit bestand',
+  'files.delete.button' => 'Verwijder',
+  'files.delete.errors.notfound' => 'Het bestand kon niet worden gevonden',
+  'files.delete.errors.permissions' => 'Het bestand kon niet worden verwijderd',
+  'files.delete.success' => 'Het bestand is verwijderd',
 
   // edit file
-  'files.edit.title' => 'Edit file',
-  'files.edit.filename' => 'Filename (without extension)',
-  'files.edit.button' => 'Save',
-  'files.edit.errors.notfound' => 'The file could not be found',
+  'files.edit.title' => 'Bestand aanpassen',
+  'files.edit.filename' => 'Bestandsnaam (zonder extensie)',
+  'files.edit.button' => 'Bewaar',
+  'files.edit.errors.notfound' => 'Het bestand kon niet worden gevonden',
   'files.edit.errors.exists' => 'The the new name already exists',
   'files.edit.errors.permissions' => 'The file could not be renamed',
-  'files.edit.success' => 'The file has been saved',
+  'files.edit.success' => 'Het bestand is opgeslagen',
 
   // replace file
-  'files.replace.title' => 'Replace this file',
-  'files.replace.file' => 'File',
-  'files.replace.choose' => 'Please choose a new file from your computer…',
-  'files.replace.button' => 'Replace',
-  'files.replace.errors.notfound' => 'The file could not be found',
-  'files.replace.success' => 'The file has been replaced',
+  'files.replace.title' => 'Vervang dit bestand',
+  'files.replace.file' => 'Bestand',
+  'files.replace.choose' => 'Kies een nieuw bestand van uw computer…',
+  'files.replace.button' => 'Vervang',
+  'files.replace.errors.notfound' => 'Het bestand kon niet worden gevonden',
+  'files.replace.success' => 'Het bestand is vervangen',
 
   // upload file
-  'files.upload.title' => 'Upload a new file',
-  'files.upload.choose' => 'Please choose a file from your computer…',
+  'files.upload.title' => 'Upload een nieuw bestand',
+  'files.upload.choose' => 'Kies een bestand van uw computer…',
   'files.upload.button' => 'Upload',
       
   // login  
   'login.button' => 'Login',
-  'login.username' => 'Username',
-  'login.password' => 'Password',
-  'login.error' => 'Invalid username or password',
-  'login.success' => 'You have been logged in',
-  'login.error.browser.title' => 'You are using an old browser',
-  'login.error.browser.text' => 'Please upgrade to the latest version of Google Chrome, Firefox, Safari or Internet Explorer.',
+  'login.username' => 'Gebruikersnaam',
+  'login.password' => 'Wachtwoord',
+  'login.error' => 'Ongeldige gebruikersnaam of wachtwoord',
+  'login.success' => 'Je bent ingelogd',
+  'login.error.browser.title' => 'Je gebruikt een verouderde browser',
+  'login.error.browser.text' => 'Upgrade alstublieft naar de nieuwste versie van Google Chrome, Firefox, Safari or Internet Explorer.',
   
   // upload
   'upload.errors.missing-file' => 'The file has not been found',
